@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Site Theme</title>
+
+    <script src="https://kit.fontawesome.com/0da91a7850.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page-wrapper chiller-theme toggled d-flex">
+        <nav id="sidebar" class="sidebar-wrapper d-none d-lg-block">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <div class="text-center my-3">
+                        <a href="#">
+                            <img src="images/valuemindsLogo.png" alt="Logo" class="img-fluid" />
+                        </a>
+                    </div>
+                    <div class="text-center mt-5">
+                        <i class="far fa-user-circle fa-5x lightcolor" aria-hidden="true"></i>
+                    </div>
+                    <div class="mt-3 mx-3">
+                        <h1 class="welcome-message greencolor largeheader1">
+                            Welcome back,
+                            <span class="smallersubheader text-dark">Admin</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="sidebar-menu mx-3 px-2">
+                    <ul>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fas fa-chart-bar greencolor"></i>
+                                <span class="text-uppercase generalparagraph">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown py-2 px-2">
+                            <div class="accordion" id="accordionExample">
+                                <div class="explorecollapsebox" id="exploreheadingSidenavthree" data-toggle="collapse"
+                                    data-target="#explorecollapseSidenavthree" aria-expanded="true"
+                                    aria-controls="explorecollapseSidenavthree">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="
+                                  generalparagraph
+                                  mb-0
+                                  sidebarcolor
+                                  text-uppercase
+                                ">
+                                            <i class="fas fa-suitcase mr-2 greencolor" aria-hidden="true"></i>
+
+                                            <span class="ml-2 pl-1 boldtext">
+                                                Learning assets
+                                            </span>
+                                        </h2>
+                                        <i class="fas fa-minus fa-xs darkergray"></i>
+                                    </div>
+                                </div>
+
+                                <div id="explorecollapseSidenavthree" class="collapse show"
+                                    aria-labelledby="exploreheadingSidenavthree" data-parent="#accordionExample">
+                                    <ul class="ml-2 pl-4 mt-1 py-1">
+                                        <li class="py-1 pl-1">
+                                            <a href="schoolAdministration.html" class="generalparagraph greencolor">
+                                                <u> Learning hubs</u>
+                                            </a>
+                                        </li>
+                                        <li class="py-1 pl-1">
+                                            <a href="#" class="generalparagraph darkergray">
+                                                Courses
+                                            </a>
+                                        </li>
+                                        <li class="py-1 pl-1">
+                                            <a href="#" class="generalparagraph darkergray">
+                                                Conference
+                                            </a>
+                                        </li>
+                                        <li class="py-1 pl-1">
+                                            <a href="#" class="generalparagraph darkergray">
+                                                Knowledge Series
+                                            </a>
+                                        </li>
+                                        <li class="py-1 pl-1">
+                                            <a href="#" class="generalparagraph darkergray">
+                                                Book Experience
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown py-2 px-2">
+                            <div class="accordion" id="accordionExample">
+                                <div class="explorecollapsebox" id="exploreheadingSidenavfour" data-toggle="collapse"
+                                    data-target="#explorecollapseSidenavfour" aria-expanded="true"
+                                    aria-controls="explorecollapseSidenavfour">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="
+                                  generalparagraph
+                                  mb-0
+                                  sidebarcolor
+                                  text-uppercase
+                                ">
+                                            <i class="fas fa-suitcase mr-2 greencolor" aria-hidden="true"></i>
+
+                                            <span class="ml-2 pl-1"> Site </span>
+                                        </h2>
+                                        <i class="fas fa-plus fa-xs darkergray"></i>
+                                    </div>
+                                </div>
+
+                                <div id="explorecollapseSidenavfour" class="collapse"
+                                    aria-labelledby="exploreheadingSidenavfour" data-parent="#accordionExample">
+                                    <ul class="ml-2 pl-4 mt-1 py-1">
+                                        <li class="py-1 pl-1">
+                                            <a href="#" class="generalparagraph darkergray">
+                                                Site
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown py-2 px-2">
+                            <div class="accordion" id="accordionExample">
+                                <div class="explorecollapsebox" id="exploreheadingSidenavfive" data-toggle="collapse"
+                                    data-target="#explorecollapseSidenavfive" aria-expanded="true"
+                                    aria-controls="explorecollapseSidenavfive">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="
+                                  generalparagraph
+                                  mb-0
+                                  sidebarcolor
+                                  text-uppercase
+                                ">
+                                            <i class="fas fa-suitcase mr-2 greencolor" aria-hidden="true"></i>
+
+                                            <span class="ml-2 pl-1"> Asset Library </span>
+                                        </h2>
+                                        <i class="fas fa-plus fa-xs darkergray"></i>
+                                    </div>
+                                </div>
+
+                                <div id="explorecollapseSidenavfive" class="collapse"
+                                    aria-labelledby="exploreheadingSidenavfive" data-parent="#accordionExample">
+                                    <ul class="ml-2 pl-4 mt-1 py-1">
+                                        <li class="py-1 pl-1">
+                                            <a href="#" class="generalparagraph darkergray">
+                                                Quiz
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-envelope greencolor"></i>
+                                <span class="text-uppercase generalparagraph">Emails</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-chart-line greencolor"></i>
+                                <span class="text-uppercase generalparagraph">Reporting</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="far fa-user-circle greencolor"></i>
+                                <span class="text-uppercase generalparagraph">User Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown py-2 px-2">
+                            <div class="accordion" id="accordionExample">
+                                <div class="explorecollapsebox" id="exploreheadingSidenavtwo" data-toggle="collapse"
+                                    data-target="#explorecollapseSidenavtwo" aria-expanded="true"
+                                    aria-controls="explorecollapseSidenavtwo">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="
+                                  generalparagraph
+                                  mb-0
+                                  sidebarcolor
+                                  text-uppercase
+                                ">
+                                            <i class="fas fa-suitcase mr-2 greencolor" aria-hidden="true"></i>
+
+                                            <span class="ml-2 pl-1">Settings</span>
+                                        </h2>
+                                        <i class="fas fa-minus fa-xs darkergray"></i>
+                                    </div>
+                                </div>
+
+                                <div id="explorecollapseSidenavtwo" class="collapse show"
+                                    aria-labelledby="exploreheadingSidenavtwo" data-parent="#accordionExample">
+                                    <ul class="ml-4 px-2 mt-2 py-1">
+                                        <a href="schoolAdministration.html" class="generalparagraph greencolor">
+                                            <u> Admin Roles</u>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown py-2 px-2">
+                            <div class="accordion" id="accordionExample">
+                                <div class="explorecollapsebox" id="exploreheadingSidenavsix" data-toggle="collapse"
+                                    data-target="#explorecollapseSidenavsix" aria-expanded="true"
+                                    aria-controls="explorecollapseSidenavsix">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="
+                                  generalparagraph
+                                  mb-0
+                                  sidebarcolor
+                                  text-uppercase
+                                ">
+                                            <i class="fas fa-suitcase mr-2 greencolor" aria-hidden="true"></i>
+
+                                            <span class="ml-2 pl-1">Biling & Payments</span>
+                                        </h2>
+                                        <i class="fas fa-minus fa-xs darkergray"></i>
+                                    </div>
+                                </div>
+
+                                <div id="explorecollapseSidenavsix" class="collapse show"
+                                    aria-labelledby="exploreheadingSidenavsix" data-parent="#accordionExample">
+                                    <ul class="ml-4 px-2 mt-2 py-1">
+                                        <a href="plansPricing.html" class="generalparagraph">
+                                            Plans & Pricing
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-question-circle greencolor"></i>
+                                <span class="text-uppercase generalparagraph">Help</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-arrow-alt-circle-left greencolor"></i>
+                                <span class="text-uppercase generalparagraph">Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer"></div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between mb-4 px-5 ml-0 py-4 graysolidbottom">
+                    <div class="">
+                        <h1 class="welcome-message largeheader1 darkergray my-0">
+                            Site Theme
+                        </h1>
+                    </div>
+                </div>
+                <div class="container-fluid px-md-5 px-3">
+                    <div class="row whiteborderbottom pb-5">
+                        <div class="mycol-2 mt-5 mx-lg-4">
+                            <h2 class="mainheader3">School Information</h2>
+                            <p class="generalparagraph darkergray">
+                                What is the name of your School?
+                            </p>
+                        </div>
+                        <div class="col-md-9 mt-5">
+                            <div class="nameclassroom nameclassroominput">
+                                <h2 class="generalparagraph2">School Name</h2>
+                                <input class="form-control mb-4" type="text" placeholder="Enter school name" />
+                                <div class="d-flex align-items-center mb-2">
+                                    <h2 class="generalparagraph2 mb-0">Short Description</h2>
+                                    <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                            data-placement="top" title="A conference show">
+
+                                        </i>
+                                    </button>
+                                </div>
+                                <textarea name="" id="" cols="133" rows="5" class="form-control"
+                                    placeholder="Enter Fee"></textarea>
+                                <div class="row m-0 p-0 mt-3 pt-1">
+                                    <div class="col-md-6 p-0 m-0">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Instagram Handle</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="A conference show">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <input class="form-control mb-4" type="text" placeholder="" />
+                                    </div>
+                                    <div class="col-md-6 pr-0 mr-0">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Twitter Handle</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="A conference show">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <input class="form-control mb-4" type="text" placeholder="" />
+                                    </div>
+                                    <div class="col-md-6 p-0 m-0">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Linkedin URL</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="A conference show">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <input class="form-control mb-4" type="text" placeholder="" />
+                                    </div>
+                                    <div class="col-md-6 pr-0 mr-0">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Facebook URL</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="A conference show">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <input class="form-control mb-4" type="text" placeholder="" />
+                                    </div>
+                                    <div class="col-md-6 p-0 m-0">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Youtube URL</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="A conference show">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <input class="form-control mb-4" type="text" placeholder="" />
+                                    </div>
+                                </div>
+
+
+                                <div class="
+                      mt-3
+                      d-flex
+                      justify-content-end
+                      align-items-end align-content-end
+                      border-top
+                      pt-4
+                      pb-3
+                    ">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-2 whiteborderbottom pb-5">
+                        <div class="mycol-2 mt-5 mx-lg-4">
+                            <h2 class="mainheader3">Logo & Background</h2>
+                            <p class="generalparagraph darkergray">
+                                Add a custom logo and/or favicon, and adjust your homepage background image.
+                            </p>
+                        </div>
+                        <div class="col-9 mt-5">
+                            <div class="nameclassroom">
+                                <div class="row border-bottom pb-4">
+                                    <div class="col-md-4">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Upload Logo</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top" title="Upload your Logo">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <div class="mt-3 bggraybackground bglightcolor">
+
+                                            <div class="image-input d-flex justify-content-center px-5 py-4">
+                                                <img src="images/image-regular.svg" class="image-preview classroomimage
+                                                    lightcolor
+                                                    text-center img-fluid p-2" id="upfile1">
+
+
+                                                <input type="file" accept="image/*" id="imageInput">
+
+
+                                            </div>
+
+                                        </div>
+                                        <span class="generalparagraph boldtext greencolor">
+                                            <u>Change Logo</u>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Upload Fav icon</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top" title="Upload icon">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <div class="mt-3 bggraybackground bglightcolor">
+
+
+                                            <div class="image-input d-flex justify-content-center px-5 py-4">
+                                                <img src="images/image-regular.svg" class="image-preview2 classroomimage
+                                                    lightcolor
+                                                    text-center img-fluid p-2" id="upfile2">
+
+
+                                                <input type="file" accept="image/*" id="imageInput2">
+
+
+                                            </div>
+
+                                        </div>
+                                        <span class="generalparagraph boldtext greencolor">
+                                            <u>Change icon</u>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Upload Background image</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="Upload background image">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <div class="mt-3 bggraybackground bglightcolor">
+
+                                            <div class="image-input3 d-flex justify-content-center px-5 py-4">
+                                                <img src="images/image-regular.svg" class="image-preview3 classroomimage
+                                                    lightcolor
+                                                    text-center img-fluid change-image2 p-2" id="upfile3">
+                                                <input type="file" accept="image/*" id="imageInput3">
+                                            </div>
+                                        </div>
+                                        <span class="generalparagraph boldtext greencolor">
+                                            <u>Change image</u>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="
+                                                mt-3
+                                                d-flex
+                                                justify-content-end
+                                                align-items-end align-content-end
+                                              ">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row whiteborderbottom pb-5">
+                        <div class="mycol-2 mt-5 mx-lg-4">
+                            <div class="d-flex align-items-center mb-2">
+                                <h2 class="mainheader3 mb-0">Header/Footer Template</h2>
+                                <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                        data-placement="top" title="Upload your Logo">
+
+                                    </i>
+                                </button>
+                            </div>
+                            <p class="generalparagraph darkergray">
+                                Choose how you want your Header & Footer to look like.
+                            </p>
+                        </div>
+                        <div class="col-md-9 mt-5">
+                            <div class="nameclassroom nameclassroominput">
+                                <div class="row p-0 m-0">
+
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h2 class="generalparagraph2 mb-0">Select Template</h2>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top" title="Select template">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                        <div class="mb-3 alignicons">
+                                            <select id="toggledependency" class="form-control select topselect">
+                                                <option selected>Home Page</option>
+                                                <option>Main</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-2 mt-md-4 pt-2">
+                                        <a href="#" class="
+                                          generalparagraph
+                                          greencolor
+                                          text-underline
+                                        ">
+                                            Preview
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="
+                      mt-3
+                      d-flex
+                      justify-content-end
+                      align-items-end align-content-end
+                      border-top
+                      pt-4
+                      pb-3
+                    ">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row whiteborderbottom pb-5">
+                        <div class="mycol-2 mt-5 mx-lg-4">
+                            <h2 class="mainheader3 mb-0">Font Family</h2>
+
+                            <p class="generalparagraph darkergray">
+                                Change the font used across your site
+                            </p>
+                        </div>
+                        <div class="col-md-9 mt-5">
+                            <div class="nameclassroom nameclassroominput">
+                                <!-- <ul class="d-flex flex-wrap">
+                                    <li class="fontlistselected mr-3 mb-3">Roboto</li>
+                                    <li class="fontlists mr-3 mb-3">Montserrat</li>
+                                    <li class="fontlists mr-3 mb-3">Lato</li>
+                                    <li class="fontlists mr-3 mb-3">Alegreya Sans</li>
+                                    <li class="fontlists mr-3 mb-3">Arial</li>
+                                    <li class="fontlists mr-3 mb-3">Helvetica</li>
+                                    <li class="fontlists mr-3 mb-3">Lucida Sans</li>
+                                    <li class="fontlists mr-3 mb-3">Merriweather</li>
+                                    <li class="fontlists mr-3 mb-3">Open Sans</li>
+                                    <li class="fontlists mr-3 mb-3">Palatino</li>
+                                    <li class="fontlists mr-3 mb-3">Raleway</li>
+                                    <li class="fontlists mb-3">Source Sans Pro</li>
+
+
+                                </ul> -->
+                                <form action="">
+                                    <div class="form-group d-flex flex-wrap ml-0">
+                                        <div class="radio custom ml-2 fontlistmain">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Roboto</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2">Montserrat</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Lato</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Alegreya Sans</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Arial</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Helvetica</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Lucida Sans</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Merriweather</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Open Sans</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Palatino</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Raleway</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio custom ml-2">
+                                            <label class="generalparagraph d-flex align-items-center fontlists">
+                                                <input type="radio" name="foo" class="schoolsitefontradio">
+                                                <span class="ml-2"> Source Sans Pro</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="
+                                          mt-3
+                                          d-flex
+                                          justify-content-end
+                                          border-top
+                                          pt-4
+                                          align-items-end align-content-end
+                                        ">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row whiteborderbottom pb-5">
+                        <div class="mycol-2 mt-5 mx-lg-4">
+                            <h2 class="mainheader3 mb-0">Colors</h2>
+
+                            <p class="generalparagraph darkergray">
+                                Customize the colors across your school
+                            </p>
+                        </div>
+                        <div class="col-md-9 mt-5">
+                            <div class="nameclassroom">
+                                <h2 class="mainheader3 mb-0">General Site colors</h2>
+                                <div class="row my-3 mt-4">
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph darkergray">Primary Dark Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#7a3074">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#7a3074" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Secondary Dark color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#b3be66">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#b3be66" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Primary Light Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#cf567f">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#cf567f" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Secondary Light Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#cf567f">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#cf567f" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="mainheader3 mt-5 mb-0">Button & Link Colors</h2>
+                                <div class="row my-3 mt-4">
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph darkergray">Buttons Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#7a3074">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#7a3074" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Button Text color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#b3be66">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#b3be66" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Button Hover Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#cf567f">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#cf567f" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Button Hover Text Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#cf567f">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#cf567f" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Link Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#cf567f">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#cf567f" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-2">
+                                        <h2 class="generalparagraph">Link Hover Color</h2>
+
+                                        <div class="d-flex colorpickerinput mt-3">
+                                            <input type="color" id="colorpicker" name="color"
+                                                pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" value="#cf567f">
+                                            <input type="text" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+                                                value="#cf567f" id="hexcolor"></input>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="
+                                          mt-3
+                                          d-flex
+                                          justify-content-end
+                                          border-top
+                                          pt-4
+                                          align-items-end align-content-end
+                                        ">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="DeleteModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal modal-dialog-centered">
+                            <div class="modal-content py-5">
+                                <div class="px-3 text-center">
+                                    <i class="fa fa-exclamation-triangle fa-3x my-3" aria-hidden="true"></i>
+                                    <h5 class="modal-title smallersubheader" id="exampleModalLabel">
+                                        Are you sure you want to remove this instructor?
+                                    </h5>
+                                    <p class="generalparagraph2 text-center">
+                                        This action cannot be undone
+                                    </p>
+                                </div>
+                                  <div class="modal-body">
+                        <div
+                          class="
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            generalparagraph
+                          "
+                        >
+                          <button
+                            class="btn generalparagraph cancelbtn mr-3"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            Cancel
+                          </button>
+                          <button class="btn generalparagraph deletebtn">
+                            Delete
+                          </button>
+                        </div>
+                      </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-2 pb-5 mr-2 px-5">
+                        <div class="col-12 mt-5">
+                            <div class="warning d-flex p-3">
+                                <i class="far fa-question-circle mr-3" aria-hidden="true"></i>
+                                <p class="generalparagraph darkergray mb-0">
+                                    <a href="#" class="darkergray nounderlinelink">
+                                        Learn More
+                                    </a>
+                                    about Plans & Pricing in the Skilli Knowledge Base
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+<script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>

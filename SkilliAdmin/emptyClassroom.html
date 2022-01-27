@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empty classroom</title>
+
+    <script
+      src="https://kit.fontawesome.com/0da91a7850.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper chiller-theme toggled d-flex">
+      <nav id="sidebar" class="sidebar-wrapper d-none d-lg-block">
+        <div class="sidebar-content">
+          <div class="sidebar-header">
+            <div class="text-center my-3">
+              <a href="#">
+                <img
+                  src="images/valuemindsLogo.png"
+                  alt="Logo"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="text-center mt-5">
+              <i
+                class="far fa-user-circle fa-5x lightcolor"
+                aria-hidden="true"
+              ></i>
+            </div>
+            <div class="mt-3 mx-3">
+              <h1 class="welcome-message greencolor mainheader2">
+                Welcome back,
+                <span class="smallersubheader text-dark">Admin</span>
+              </h1>
+            </div>
+          </div>
+          <div class="sidebar-menu mx-3 px-2">
+            <ul>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fas fa-chart-bar greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Dashboard</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="classDashboard.html">
+                  <i class="fas fa-chalkboard greencolor"></i>
+                  <span
+                    class="text-uppercase generalparagraph greencolor boldtext"
+                    >Classrooms</span
+                  >
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-globe greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Site</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-folder-open greencolor"></i>
+                  <span class="text-uppercase generalparagraph"
+                    >Asset Library</span
+                  >
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-envelope greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Emails</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-chart-line greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Reporting</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="far fa-user-circle greencolor"></i>
+                  <span class="text-uppercase generalparagraph"
+                    >User Management</span
+                  >
+                </a>
+              </li>
+              <li class="sidebar-dropdown py-2 px-2">
+                <div class="accordion" id="accordionExample">
+                  <div
+                    class="explorecollapsebox"
+                    id="exploreheadingSidenavtwo"
+                    data-toggle="collapse"
+                    data-target="#explorecollapseSidenavtwo"
+                    aria-expanded="true"
+                    aria-controls="explorecollapseSidenavtwo"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h2
+                        class="
+                          generalparagraph
+                          mb-0
+                          sidebarcolor
+                          text-uppercase
+                        "
+                      >
+                        <i
+                          class="fas fa-suitcase mr-2 greencolor"
+                          aria-hidden="true"
+                        ></i>
+
+                        <span class="ml-2 pl-1">Settings</span>
+                      </h2>
+                      <i class="fas fa-minus fa-xs darkergray"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    id="explorecollapseSidenavtwo"
+                    class="collapse show"
+                    aria-labelledby="exploreheadingSidenavtwo"
+                    data-parent="#accordionExample"
+                  >
+                    <ul class="ml-4 px-2 mt-2 py-1">
+                      <a href="#" class="generalparagraph greencolor">
+                        <u> Admin Roles</u>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="plansPricing.html">
+                  <i class="far fa-credit-card greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Biling</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-question-circle greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Help</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-arrow-alt-circle-left greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Logout</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer">
+          <a href="#">
+            <i class="fa fa-bell"></i>
+            <span class="badge badge-pill badge-warning notification">3</span>
+          </a>
+          <a href="#">
+            <i class="fa fa-envelope"></i>
+            <span class="badge badge-pill badge-success notification">7</span>
+          </a>
+          <a href="#">
+            <i class="fa fa-cog"></i>
+            <span class="badge-sonar"></span>
+          </a>
+          <a href="#">
+            <i class="fa fa-power-off"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- sidebar-wrapper  -->
+      <main class="page-content">
+        <div class="container-fluid">
+          <div class="row mb-4">
+            <div class="col-10 border-bottom pb-2">
+              <h1 class="welcome-message greencolor mainheader2">
+                Create Classroom
+              </h1>
+            </div>
+            <div class="col-2">
+              <a
+                href="newClassroom.html"
+                class="
+                  generalparagraph
+                  boldtext
+                  greenborder
+                  greencolor
+                  newclassroom
+                "
+              >
+                <i class="fa fa-plus fa-xs mr-2 mb-2" aria-hidden="true"></i>
+                New Classroom
+              </a>
+            </div>
+          </div>
+          <div
+            class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center align-content-center
+              my-auto
+              mt-5
+            "
+          >
+            <div class="mt-5 text-center">
+              <h2 class="mainheader4 text-center darkergray mt-5 mb-3">
+                You have not created any classroom yet
+              </h2>
+              <button class="btn generalparagraph boldtext createclassroom">
+                <i class="fa fa-plus fa-xs mr-2 mb-2" aria-hidden="true"></i>
+                New Classroom
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</html>

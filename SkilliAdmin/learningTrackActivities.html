@@ -1,0 +1,2497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity Manager</title>
+
+    <script src="https://kit.fontawesome.com/0da91a7850.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page-wrapper chiller-theme toggled d-flex">
+        <nav id="sidebar" class="sidebar-wrapper d-none d-lg-block">
+            <div class="sidebar-content-hub">
+                <div class="stickycontainer2">
+                    <div class="">
+                        <div class="px-4 py-2 border-bottom">
+                            <div class="text-left my-3 largeheader1 text-light">
+                                Valueminds Executive Education
+                            </div>
+                        </div>
+                        <div class="sidebar-dropdown bglightcolor p-4 d-flex">
+                            <div class="text-left smallersubheader darkergray mr-3">
+                                The Business Arena
+                            </div>
+                            <div class="">
+                                <a href="#" class="
+                          generalparagraph
+                          boldtext
+                          text-white
+                          whiteborder
+                          newclassroom
+                          px-3
+                          py-2
+                        ">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex sidebar-menu">
+                    <div class="d-flex flex-column border-right pl-2 hiddendashboard pt-3">
+                        <ul class="dashboardone pl-2">
+                            <li class="sidebar-dropdown">
+                                <a href="#" data-toggle="tooltip" data-placement="left" title="Dashboard"
+                                    data-custom-class="tooltip-primary">
+                                    <i class="fas fa-chart-bar text-light"> </i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#" class="text-light" data-toggle="tooltip" data-placement="left"
+                                    title="Learning assets" data-custom-class="tooltip-primary">
+                                    <i class="fas fa-suitcase text-light"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="plansPricing.html" class="text-light" data-toggle="tooltip"
+                                    data-placement="left" title="Plans & Pricing" data-custom-class="tooltip-primary">
+                                    <i class="fas fa-credit-card text-light"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-refresh text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Cohorts" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-filter text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Learning hub admins" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-bullhorn text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Announcements" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-bullhorn text-light" data-toggle="tooltip" data-placement="left"
+                                        title="FAQs" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fas fa-scroll text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Pages" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fas fa-user-circle text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Students" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-chart-line text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Reporting" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-cog text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Learning Hub Settings" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="dashboardtwo pl-2 d-flex flex-column justify-content-end">
+                            <li class="sidebar-dropdown">
+                                <a href="#" data-toggle="tooltip" data-placement="left" title="Help"
+                                    data-custom-class="tooltip-primary">
+                                    <i class="fas fa-chart-bar text-light"> </i>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-">
+                                <a href="#">
+                                    <i class="fa fa-cog text-light" data-toggle="tooltip" data-placement="left"
+                                        title="Logout" data-custom-class="tooltip-primary"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li class="sidebar-dropdown px-2 pb-2 pt-3">
+                            <a href="#">
+                                <i class="fa fa-cog text-white mr-0" aria-hidden="true"></i>
+                                <span class="text-uppercase generalparagraph text-light boldtext">LEARNING TRACK
+                                    MANAGER</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown px-4 py-1">
+                            <a href="generalHubSettings.html">
+                                <span class="generalparagraph text-light">General Settings</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown px-4 py-1">
+                            <a href="#">
+                                <span class="generalparagraph text-white boldtext">Activity Manager</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown px-4 py-1">
+                            <a href="announcement.html">
+                                <span class="generalparagraph lightcolor">Track Announcements</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown px-4 py-1">
+                            <a href="#">
+                                <span class="generalparagraph lightcolor">Grading</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="
+                sidebar-footer-hub
+                border-top
+                d-flex
+                justify-content-between
+                align-items-center
+              ">
+                <a href="#" class="generalparagraph2 border-right text-light px-3 mb-1 pt-3">
+                    Happiness Adeboye
+                </a>
+
+                <div class="
+                  d-flex
+                  justify-content-center
+                  dropdown-toggle
+                  align-items-center
+                  h-100
+                  footerhovericon
+                " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-ellipsis-v text-white mb-2"></i>
+                    <div class="dropdown-menu p-3 dropmenufooter">
+                        <!-- Dropdown menu links -->
+                        <ul class="">
+                            <li class="generalparagraph py-2">
+                                <a href="#" class="text-dark"> Knowledge base</a>
+                            </li>
+                        </ul>
+                        <ul class="mt-2 pb-2">
+                            <li class="generalparagraph">
+                                <a href="#" class="text-dark">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between bg-white px-4 py-4">
+                    <div class="">
+                        <h1 class="welcome-message largeheader1 darkergray my-0">
+                            Activity Manager
+                        </h1>
+                    </div>
+                    <div class="mr-3">
+
+                        <a href="#" class="generalparagraph drophover text-wrap dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Add Activity
+                            <i class="fa fa-chevron-down ml-2 fa-xs" aria-hidden="true"></i>
+                        </a>
+                        <div class="
+                                                                   dropdown-menu
+                                                                   filtercoursesdropdown
+                                                                   px-3
+                                                                   m-0
+                                                                 ">
+                            <!-- Dropdown menu links -->
+                            <ul class="dropmenufilter m-0 p-0">
+                                <li class="generalparagraph2 py-2">
+                                    <a href="#" class="text-white" data-toggle="modal" data-target="#ContentModal"
+                                        data-whatever="@mdo">
+                                        New Activity</a>
+                                </li>
+                                <li class="generalparagraph2 py-2">
+                                    <a href="#" class="text-white" data-toggle="modal" data-target="#EditActivityModal"
+                                        data-whatever="@mdo">Existing Activity</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title smallersubheader ml-2" id="exampleModalLabel">
+                                        Add New Plan
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <form class="nameclassroom nameclassroominput">
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="recipient-name"
+                                                    class="my-3                             generalparagraph2">Plan
+                                                    Name</label>
+                                                <div class="">
+                                                    <input type="text" class="form-control" id="recipient-name"
+                                                        placeholder="Name your plan" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Plan
+                                                    Description</label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Short description of the plan" />
+
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group d-flex my-2">
+                                            <div class="col-6 p-0 m-0 mr-3">
+                                                <label for="message-text" class="
+                              my-3                               generalparagraph2
+                              d-flex
+                              align-items-center
+                            ">
+                                                    Plan Level
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select level</option>
+                                                        <option>Hub level</option>
+                                                        <option>Asset level</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 m-0">
+                                                <label for="message-text" class="
+                              my-3                               generalparagraph2
+                              d-flex
+                              align-items-center
+                            ">Free or Premium
+
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Free</option>
+                                                        <option>Premium</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group d-flex my-3">
+                                            <div class="col-6 p-0 m-0 mr-2">
+                                                <label for="message-text" class="
+                              my-3                               generalparagraph2
+                              d-flex
+                              align-items-center
+                            ">
+                                                    Recurring Payment
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Role of the admin">
+                                                        <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                                                    </button>
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Yes</option>
+                                                        <option>No</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <label for="message-text" class="
+                              my-3                               generalparagraph2
+                              d-flex
+                              align-items-center
+                            ">
+                                                    Recurring Fee
+
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Role of the admin">
+                                                        <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                                                    </button>
+                                                </label>
+                                                <div class="">
+                                                    <input type="text" class="form-control" id="recipient-name"
+                                                        placeholder="Enter fee" />
+                                                </div>
+                                            </div>
+                                            <div class="col-3 m-0 p-0">
+                                                <label for="message-text" class="
+                              my-3                               generalparagraph2
+                              d-flex
+                              align-items-center
+                            ">Recurring Frequency
+
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Role of the admin">
+                                                        <i class="fa fa-info-circle darkergray"
+                                                            aria-hidden="true"></i></button></label>
+
+                                                <div class="alignicons">
+
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Daily</option>
+                                                        <option>Weekly</option>
+                                                        <option>Monthly</option>
+                                                        <option>Annualy</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Plan
+                                                    Features</label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Describe feature" />
+
+                                            </div>
+                                        </div>
+
+                                        <div id="new-field"></div>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="#" class="mainheader3 greencolor" id="addfeature">
+                                                + Add Feature
+
+                                            </a>
+
+                                            <a href="#" class="mainheader3 text-danger" id="removefeature">
+                                                - Remove Feature
+
+                                            </a>
+                                        </div>
+                                    </form>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="ContentModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header py-4">
+                                    <h5 class="modal-title smallersubheader" id="exampleModalLabel">
+                                        Add New Activity
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <form class="nameclassroom nameclassroominput">
+                                        <div class="form-group row my-2 ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="message-text" class="
+                                                                          my-3
+                                                                          generalparagraph2
+                                                                          d-flex
+                                                                          align-items-center
+                                                                        ">
+                                                    Select Activity Type
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select content type</option>
+                                                        <option>Pre-recorded Video/Audio session</option>
+                                                        <option>Live Class</option>
+                                                        <option>External Link</option>
+                                                        <option>Project</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+
+
+                                                <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                                                <div class="">
+                                                    <input type="text" class="form-control" id="title-input"
+                                                        placeholder="Enter content title" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="select-admin" class="generalparagraph2 my-3">Select Content
+                                                    Topic</label>
+                                                <div class="alignicons">
+                                                    <select id="select-admin" class="form-control select topselect">
+                                                        <option selected>Select Content Topic</option>
+                                                        <option>Video sessions</option>=
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ml-0">
+                                            <label for="descriptiontextarea" class="generalparagraph2 my-3">Short
+                                                description</label>
+                                            <textarea name="" id="descriptiontextarea" cols="133" rows="5"
+                                                class="form-control" placeholder=""></textarea>
+                                        </div>
+                                    </form>
+
+
+
+
+                                    <div class="mx-4">
+                                        <div class="nameclassroom borderrounded pb-2">
+
+                                            <div class="">
+                                                <div class="nameclassroom col-12 py-2">
+                                                    <div class="d-flex align-items-md-center">
+                                                        <form action="">
+                                                            <input type="checkbox" class="toggle-switch2 p-0 m-0 mr-3">
+                                                        </form>
+                                                        <p class="generalparagraph mb-0 darkergray">
+                                                            Make activity available on-Demand
+                                                        </p>
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="Make activity available on-Demand info">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nameclassroom nameclassroominput row">
+                                                <div class="col-md-4 pl-0 ml-0">
+                                                    <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                        access on: </label>
+                                                    <input type="date" class="form-control" id="datelive" />
+                                                </div>
+                                                <div class="col-md-4">
+
+                                                    <div class="alignicons">
+                                                        <label for="recipient-name" class="my-3 generalparagraph2">Start
+                                                            Time
+                                                        </label>
+
+                                                        <select name="" id="" class="form-control">
+                                                            <option value="" selected>Select time</option>
+                                                            <option value="">9am-2pm</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 pr-0 mr-0">
+                                                    <label for="recipient-name"
+                                                        class="my-3 generalparagraph2">Duration(in
+                                                        Mins)</label>
+                                                    <input type="text" class="form-control" id="datelive"
+                                                        placeholder="State duration of activity" />
+                                                </div>
+                                            </div>
+                                            <div class="nameclassroom py-2 d-flex align-items-center mt-4 mb-3 px-2">
+                                                <form action="">
+                                                    <input type="checkbox" class="toggle-switch2 p-0 m-0">
+                                                </form>
+                                                <p class="generalparagraph ml-3 mb-0">
+                                                    Restrict Access till activity date
+                                                </p>
+                                                <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                        data-toggle="tooltip" data-placement="top" title="On-demand">
+
+                                                    </i>
+                                                </button>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="nameclassroom nameclassroominput row">
+
+                                        <div class="col-md-6">
+
+                                            <div class="alignicons">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Related Topic
+                                                </label>
+
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected>Topic</option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="alignicons">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                    Comments?
+                                                </label>
+
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected>Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="ExistingActivityModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header py-4">
+                                    <h5 class="modal-title smallersubheader" id="exampleModalLabel">
+                                        Add Existing Activity
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <form class="nameclassroom nameclassroominput">
+                                        <div class="form-group row my-2 ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="message-text" class="
+                                                  my-3
+                                                  generalparagraph2
+                                                  d-flex
+                                                  align-items-center
+                                                ">
+                                                    Select an Existing Acitivity
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Search for lesson</option>
+                                                        <option>option 1</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+
+
+                                                <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                                                <div class="">
+                                                    <input type="text" class="form-control" id="title-input"
+                                                        placeholder="Enter content title" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+
+
+                                                <label for="select-admin" class="generalparagraph2 my-3">Label</label>
+                                                <div class="">
+                                                    <input type="text" class="form-control" id="label-input"
+                                                        placeholder="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+
+
+                                    <div class="mx-4">
+                                        <div class="nameclassroom borderrounded pb-2">
+
+                                            <div class="">
+                                                <div class="nameclassroom col-12 py-2">
+                                                    <div class="d-flex align-items-md-center">
+                                                        <form action="">
+                                                            <input type="checkbox" class="toggle-switch2 p-0 m-0 mr-3">
+                                                        </form>
+                                                        <p class="generalparagraph mb-0 darkergray">
+                                                            Make activity available on-Demand
+                                                        </p>
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="Make activity available on-Demand info">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nameclassroom nameclassroominput row">
+                                                <div class="col-md-4 pl-0 ml-0">
+                                                    <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                        access on: </label>
+                                                    <input type="date" class="form-control" id="datelive" />
+                                                </div>
+                                                <div class="col-md-4">
+
+                                                    <div class="alignicons">
+                                                        <label for="recipient-name" class="my-3 generalparagraph2">Start
+                                                            Time
+                                                        </label>
+
+                                                        <select name="" id="" class="form-control">
+                                                            <option value="" selected>Select time</option>
+                                                            <option value="">9am-2pm</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 pr-0 mr-0">
+                                                    <label for="recipient-name"
+                                                        class="my-3 generalparagraph2">Duration(in
+                                                        Mins)</label>
+                                                    <input type="text" class="form-control" id="datelive"
+                                                        placeholder="State duration of activity" />
+                                                </div>
+                                            </div>
+                                            <div class="nameclassroom py-2 d-flex align-items-center mt-4 mb-3 px-2">
+                                                <form action="">
+                                                    <input type="checkbox" class="toggle-switch2 p-0 m-0">
+                                                </form>
+                                                <p class="generalparagraph ml-3 mb-0">
+                                                    Restrict Access till activity date
+                                                </p>
+                                                <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                        data-toggle="tooltip" data-placement="top" title="On-demand">
+
+                                                    </i>
+                                                </button>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="nameclassroom nameclassroominput row">
+
+                                        <div class="col-md-6">
+
+                                            <div class="alignicons">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Related Topic
+                                                </label>
+
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected>Topic</option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="alignicons">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                    Comments?
+                                                </label>
+
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected>Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal fade" id="PreRequisiteModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title smallersubheader ml-2" id="exampleModalLabel">
+                                        Pre-requisite Activity
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <div class="p-3 py-2">
+                                        <p class="generalparagraph darkergray mt-2">
+                                            When you select a prerequisite activity, your student will only be
+                                            able to access this activity after completing the
+                                            pre-requisite activity.
+                                        </p>
+
+                                        <div class="d-flex align-items-center mt-3 py-2">
+                                            <form action="">
+                                                <input type="checkbox" class="toggle-switch2 p-0 m-0">
+                                            </form>
+                                            <p class="generalparagraph ml-3 mb-0">
+                                                Pre-requisite Activity
+                                            </p>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="Pre-requisite Activity">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <form class="nameclassroom nameclassroominput pt-0">
+                                        <div class="form-group row my-3">
+
+                                            <div class="col-12 p-0 m-0">
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select prerequisite activity</option>
+                                                        <option>option 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="PayAcessModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title smallersubheader ml-2" id="exampleModalLabel">
+                                        Pay to access activity
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <div class="p-3 py-2">
+                                        <div id="" class="">
+                                            <div class="row p-0 m-0 px-4 pt-0 pb-3">
+                                                <div class="col-md-12 justify-content-center">
+                                                    <div class="nameclassroom nameclassroominput py-3">
+                                                        <div class="">
+                                                            <div class="" id="">
+                                                                <div class="">
+                                                                    <div class="
+                                                                                                d-flex
+                                                                                                justify-content-between
+                                                                                                align-items-center
+                                                                                              ">
+                                                                        <div class="
+                                                                                                  d-flex
+                                                                                                  align-items-center
+                                                                                                ">
+                                                                            <h2 class="mainheader3 bold mb-0">
+                                                                                Basic Plan
+                                                                            </h2>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div>
+                                                                    <div class="pb-3">
+                                                                        <div class="">
+                                                                            <p class="
+                                                                                                    generalparagraph
+                                                                                                    darkergray
+                                                                                                    dottedborderbottom
+                                                                                                    py-3
+                                                                                                  ">
+                                                                                The theme color you choose here is what
+                                                                                your
+                                                                                learning hub will adopt, irrespective of
+                                                                                the
+                                                                                theme color of your site.
+                                                                            </p>
+
+                                                                            <div class="row ml-1 py-3">
+                                                                                <div class="mainheader3">Plan Features
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-6">
+                                                                                    <p
+                                                                                        class="generalparagraph darkergray">
+                                                                                        <i class="fa fa-arrow-right fa-xs mr-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                        3 Months Access
+                                                                                    </p>
+                                                                                    <p
+                                                                                        class="generalparagraph darkergray">
+                                                                                        <i class="fa fa-arrow-right fa-xs mr-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                        Exclusive Access
+                                                                                    </p>
+                                                                                    <p
+                                                                                        class="generalparagraph darkergray">
+                                                                                        <i class="fa fa-arrow-right fa-xs mr-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                        Pay in 3 Installments
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div class="col-6">
+                                                                                    <p
+                                                                                        class="generalparagraph darkergray">
+                                                                                        <i class="fa fa-arrow-right fa-xs mr-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                        3 Months Access
+                                                                                    </p>
+                                                                                    <p
+                                                                                        class="generalparagraph darkergray">
+                                                                                        <i class="fa fa-arrow-right fa-xs mr-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                        Exclusive Access
+                                                                                    </p>
+                                                                                    <p
+                                                                                        class="generalparagraph darkergray">
+                                                                                        <i class="fa fa-arrow-right fa-xs mr-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                        Pay in 3 Installments
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row ml-1 py-3">
+                                                                                <div class="mainheader3">
+                                                                                    Payment Installments
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="row p-0 m-0 py-2 align-items-center">
+                                                                                <h3 class="col-4"></h3>
+                                                                                <h3
+                                                                                    class="col-4 generalparagraph2 mb-0">
+                                                                                    Fee
+                                                                                </h3>
+                                                                                <h3
+                                                                                    class="col generalparagraph2 mb-0 pl-0">
+                                                                                    Asset Access
+                                                                                </h3>
+                                                                            </div>
+
+                                                                            <div class="
+                                                                                                    row
+                                                                                                    p-0
+                                                                                                    m-0
+                                                                                                    bggraybackground
+                                                                                                    py-2
+                                                                                                    align-items-center
+                                                                                                  ">
+                                                                                <h3
+                                                                                    class="col-4 generalparagraph2 mb-0">
+                                                                                    Installment 1
+                                                                                </h3>
+                                                                                <h3 class="
+                                                                                                      col-3
+                                                                                                      generalparagraph
+                                                                                                      darkergray
+                                                                                                      mb-0
+                                                                                                    ">
+                                                                                    N10,000
+                                                                                </h3>
+                                                                                <h3 class="
+                                                                                                      col-3
+                                                                                                      generalparagraph
+                                                                                                      darkergray
+                                                                                                      mb-0
+                                                                                                    ">
+                                                                                    5 days
+                                                                                </h3>
+
+                                                                                <div class="
+                                                                                                      col-2
+                                                                                                      d-flex
+                                                                                                      justify-content-end
+                                                                                                      align-items-end
+                                                                                                      mb-0
+                                                                                                    ">
+                                                                                    <button class="
+                                                                                                        btn
+                                                                                                        dropdown-toggle
+                                                                                                        p-0
+                                                                                                        m-0
+                                                                                                        d-flex
+                                                                                                        mb-0
+                                                                                                        ml-3
+                                                                                                      "
+                                                                                        data-toggle="dropdown"
+                                                                                        aria-haspopup="true"
+                                                                                        aria-expanded="false">
+                                                                                        <i class="
+                                                                                                          fa fa-ellipsis-v
+                                                                                                          generalparagraph
+                                                                                                          darkergray
+                                                                                                        "
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                    <div class="dropdown-menu px-3 m-0">
+                                                                                        <!-- Dropdown menu links -->
+                                                                                        <ul
+                                                                                            class="dropmenutext m-0 p-0">
+                                                                                            <li
+                                                                                                class="generalparagraph2 py-2">
+                                                                                                <a href="#"
+                                                                                                    class="text-dark"
+                                                                                                    data-toggle="modal"
+                                                                                                    data-target="#Modal3"
+                                                                                                    data-whatever="@mdo">
+                                                                                                    Edit</a>
+                                                                                            </li>
+                                                                                            <li
+                                                                                                class="generalparagraph2 py-2">
+                                                                                                <a href="#"
+                                                                                                    class="text-dark"
+                                                                                                    data-toggle="modal"
+                                                                                                    data-target="#Modal4"
+                                                                                                    data-whatever="@mdo">Delete</a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="
+                                                                                                    mt-3
+                                                                                                    row
+                                                                                                    p-0
+                                                                                                    m-0
+                                                                                                    bggraybackground
+                                                                                                    py-2
+                                                                                                    align-items-center
+                                                                                                  ">
+                                                                                <h3
+                                                                                    class="col-4 generalparagraph2 mb-0">
+                                                                                    Installment 1
+                                                                                </h3>
+                                                                                <h3 class="
+                                                                                                      col-3
+                                                                                                      generalparagraph
+                                                                                                      darkergray
+                                                                                                      mb-0
+                                                                                                    ">
+                                                                                    N10,000
+                                                                                </h3>
+                                                                                <h3 class="
+                                                                                                      col-3
+                                                                                                      generalparagraph
+                                                                                                      darkergray
+                                                                                                      mb-0
+                                                                                                    ">
+                                                                                    5 days
+                                                                                </h3>
+
+                                                                                <div class="
+                                                                                                      col-2
+                                                                                                      d-flex
+                                                                                                      justify-content-end
+                                                                                                      align-items-end
+                                                                                                      mb-0
+                                                                                                    ">
+                                                                                    <button class="
+                                                                                                        btn
+                                                                                                        dropdown-toggle
+                                                                                                        p-0
+                                                                                                        m-0
+                                                                                                        d-flex
+                                                                                                        mb-0
+                                                                                                        ml-3
+                                                                                                      "
+                                                                                        data-toggle="dropdown"
+                                                                                        aria-haspopup="true"
+                                                                                        aria-expanded="false">
+                                                                                        <i class="
+                                                                                                          fa fa-ellipsis-v
+                                                                                                          generalparagraph
+                                                                                                          darkergray
+                                                                                                        "
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                    <div class="dropdown-menu px-3 m-0">
+                                                                                        <!-- Dropdown menu links -->
+                                                                                        <ul
+                                                                                            class="dropmenutext m-0 p-0">
+                                                                                            <li
+                                                                                                class="generalparagraph2 py-2">
+                                                                                                <a href="#"
+                                                                                                    class="text-dark"
+                                                                                                    data-toggle="modal"
+                                                                                                    data-target="#Modal3"
+                                                                                                    data-whatever="@mdo">
+                                                                                                    Edit</a>
+                                                                                            </li>
+                                                                                            <li
+                                                                                                class="generalparagraph2 py-2">
+                                                                                                <a href="#"
+                                                                                                    class="text-dark"
+                                                                                                    data-toggle="modal"
+                                                                                                    data-target="#Modal4"
+                                                                                                    data-whatever="@mdo">Delete</a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="PayAcessModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title smallersubheader ml-2" id="exampleModalLabel">
+                                        Pay to access activity
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <div class="p-3 py-2">
+                                        <p class="generalparagraph darkergray mt-2">
+                                            When you select the option to take a separate payment to access this
+                                            activity, your student will only be able to access
+                                            this activity after making the payment. You will need to add an existing
+                                            payment plan to this activity.
+                                        </p>
+
+                                        <div class="d-flex align-items-center mt-3 py-2">
+                                            <form action="">
+                                                <input type="checkbox" class="toggle-switch2 p-0 m-0">
+                                            </form>
+                                            <p class="generalparagraph ml-3 mb-0">
+                                                Take a separate payment to access this activity
+                                            </p>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="Take a separate payment to access this activity">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <form class="nameclassroom nameclassroominput pt-0">
+                                        <div class="form-group row my-3">
+
+                                            <div class="col-12 p-0 m-0">
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select prerequisite activity</option>
+                                                        <option>option 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="PublishUnpublishModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title smallersubheader ml-2" id="exampleModalLabel">
+                                        Publish/Unpublish
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <div class="p-3 py-2">
+                                        <p class="generalparagraph darkergray mt-2">
+                                            When you publish an activity, it shows up in the classroom - and the student
+                                            will be able to view and interact with it.
+                                        </p>
+
+                                        <div class="d-flex align-items-center mt-3 py-2">
+                                            <form action="">
+                                                <input type="checkbox" class="toggle-switch2 p-0 m-0">
+                                            </form>
+                                            <p class="generalparagraph ml-3 mb-0">
+                                                Publish Activity
+                                            </p>
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top" title="Publish Activity">
+
+                                                </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="EditActivityModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header py-4">
+                                    <h5 class="modal-title smallersubheader" id="exampleModalLabel">
+                                        Edit Activity Settings
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <form class="nameclassroom nameclassroominput">
+                                        <div class="form-group row my-2 ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="message-text" class="
+                                                  my-3
+                                                  generalparagraph2
+                                                  d-flex
+                                                  align-items-center
+                                                ">
+                                                    Select Activity Type
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select content type</option>
+                                                        <option>Pre-recorded Video/Audio session</option>
+                                                        <option>Live Class</option>
+                                                        <option>External Link</option>
+                                                        <option>Project</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-2 ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="message-text" class="
+                                                  my-3
+                                                  generalparagraph2
+                                                  d-flex
+                                                  align-items-center
+                                                ">
+                                                    Select Activity you want to add
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select activity</option>
+                                                        <option>Pre-recorded Video/Audio session</option>
+                                                        <option>Live Class</option>
+                                                        <option>External Link</option>
+                                                        <option>Project</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+
+
+                                                <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                                                <div class="">
+                                                    <input type="text" class="form-control" id="title-input"
+                                                        placeholder="Enter content title" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="select-admin" class="generalparagraph2 my-3">Select Content
+                                                    Topic</label>
+                                                <div class="alignicons">
+                                                    <select id="select-admin" class="form-control select topselect">
+                                                        <option selected>Select Content Topic</option>
+                                                        <option>Video sessions</option>=
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ml-0">
+                                            <label for="descriptiontextarea" class="generalparagraph2 my-3">Short
+                                                description</label>
+                                            <textarea name="" id="descriptiontextarea" cols="133" rows="5"
+                                                class="form-control" placeholder=""></textarea>
+                                        </div>
+                                    </form>
+
+
+
+
+                                    <div class="mx-4">
+                                        <div class="nameclassroom borderrounded pb-2">
+
+                                            <div class="">
+                                                <div class="nameclassroom col-12 py-2">
+                                                    <div class="d-flex align-items-md-center">
+                                                        <form action="">
+                                                            <input type="checkbox" class="toggle-switch2 p-0 m-0 mr-3">
+                                                        </form>
+                                                        <p class="generalparagraph mb-0 darkergray">
+                                                            Make activity available on-Demand
+                                                        </p>
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="Make activity available on-Demand info">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nameclassroom nameclassroominput row">
+                                                <div class="col-md-4 pl-0 ml-0">
+                                                    <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                        access on: </label>
+                                                    <input type="date" class="form-control" id="datelive" />
+                                                </div>
+                                                <div class="col-md-4">
+
+                                                    <div class="alignicons">
+                                                        <label for="recipient-name" class="my-3 generalparagraph2">Start
+                                                            Time
+                                                        </label>
+
+                                                        <select name="" id="" class="form-control">
+                                                            <option value="" selected>Select time</option>
+                                                            <option value="">9am-2pm</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 pr-0 mr-0">
+                                                    <label for="recipient-name"
+                                                        class="my-3 generalparagraph2">Duration(in
+                                                        Mins)</label>
+                                                    <input type="text" class="form-control" id="datelive"
+                                                        placeholder="State duration of activity" />
+                                                </div>
+                                            </div>
+                                            <div class="nameclassroom py-2 d-flex align-items-center mt-4 mb-3 px-2">
+                                                <form action="">
+                                                    <input type="checkbox" class="toggle-switch2 p-0 m-0">
+                                                </form>
+                                                <p class="generalparagraph ml-3 mb-0">
+                                                    Restrict Access till activity date
+                                                </p>
+                                                <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                        data-toggle="tooltip" data-placement="top" title="On-demand">
+
+                                                    </i>
+                                                </button>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="nameclassroom nameclassroominput row">
+
+                                        <div class="col-md-6">
+
+                                            <div class="alignicons">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Related Topic
+                                                </label>
+
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected>Topic</option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="alignicons">
+                                                <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                    Comments?
+                                                </label>
+
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected>Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="DripSettingsModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header py-4">
+                                    <h5 class="modal-title smallersubheader" id="exampleModalLabel">
+                                        Drip Settings
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <form class="nameclassroom nameclassroominput">
+
+                                        <div class="form-group p-0 m-0 mb-4 mb-md-0 px-2">
+
+                                            <h2 class="generalparagraph2">
+                                                When to allow access to this activity:
+                                            </h2>
+
+                                            <div class="d-flex flex-column px-4">
+                                                <input type="checkbox" class="custom-control-input"
+                                                    name="learningtrackcheckbox" id="ltcheck1">
+                                                <label
+                                                    class="custom-control-label generalparagraph darkergray my-2 py-1"
+                                                    for="ltcheck1">On a specific date
+                                                </label>
+                                                <input type="checkbox" class="custom-control-input"
+                                                    name="learningtrackcheckbox" id="ltcheck2">
+                                                <label
+                                                    class="custom-control-label generalparagraph darkergray my-2 py-1"
+                                                    for="ltcheck2">Specific No. of days after starting this
+                                                    track</label>
+                                                <input type="checkbox" class="custom-control-input"
+                                                    name="learningtrackcheckbox" id="ltcheck3">
+                                                <label
+                                                    class="custom-control-label generalparagraph darkergray my-2 py-1"
+                                                    for="ltcheck3">Specific No. of days after completing the last
+                                                    activity</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group d-flex my-3">
+                                            <div class="col-6 p-0 m-0 mr-3">
+                                                <label for="message-text" class="
+                                                                              generalparagraph2
+                                                                              my-3
+                                                                              d-flex
+                                                                              align-items-center
+                                                                            ">Select date
+                                                </label>
+                                                <input type="date" class="form-control" id="recipient-date" />
+                                            </div>
+                                            <div class="col-6 pl-0 ml-0">
+                                                <label for="message-text" class="
+                                                                              generalparagraph2
+                                                                              my-3
+                                                                              d-flex
+                                                                              align-items-center
+                                                                            ">Specific No of Days
+                                                </label>
+                                                <input type="text" class="form-control" placeholder="Specific date"
+                                                    id="recipient-email" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-2 ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="message-text" class="
+                                                  my-3
+                                                  generalparagraph2
+                                                  d-flex
+                                                  align-items-center
+                                                ">
+                                                    Prerequisite Lesson
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Applicant must complete previous Activity first
+                                                        </option>
+                                                        <option>Applicant must complete another Activity</option>
+                                                        <option>No Prerequisite</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-2 ml-0">
+                                            <div class="col-12 p-0 m-0">
+                                                <label for="message-text" class="
+                                                  my-3
+                                                  generalparagraph2
+                                                  d-flex
+                                                  align-items-center
+                                                ">
+                                                    Select Activity you want to add
+                                                </label>
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Select activity</option>
+                                                        <option>Pre-recorded Video/Audio session</option>
+                                                        <option>Live Class</option>
+                                                        <option>External Link</option>
+                                                        <option>Project</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="LockActivityModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content pl-3 pr-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title smallersubheader ml-2" id="exampleModalLabel">
+                                        Lock/Unlock Activity
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-0 m-0">
+                                    <form class="nameclassroom nameclassroominput">
+                                        <div class="form-group d-flex my-3">
+                                            <div class="col-12 p-0 m-0">
+                                                <div class="alignicons">
+                                                    <select id="inputState" class="form-control select topselect">
+                                                        <option selected>Lock</option>
+                                                        <option>Unlock</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn generalparagraph createclassroom">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="DeleteModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal modal-dialog-centered">
+                            <div class="modal-content py-5">
+                                <div class="px-3 text-center">
+                                    <i class="fa fa-exclamation-triangle fa-3x my-3" aria-hidden="true"></i>
+                                    <h5 class="modal-title smallersubheader" id="exampleModalLabel">
+                                        Are you sure you want to delete this topic?
+                                    </h5>
+                                    <p class="generalparagraph2 text-center">This action cannot be undone</p>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="text-center generalparagraph">
+                                        <button class="btn generalparagraph deletebtn">
+                                            Delete
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 bg-white">
+
+                    <div class="p-4">
+
+                        <h1 class="largeheader1">
+                            Filter
+                        </h1>
+
+                        <p class="generalparagraph darkergray my-3">
+                            View activities based on filter parameters
+                        </p>
+
+
+
+                        <form action="
+                                ">
+                            <div class="form-group row filtercontentinput">
+                                <div class="col-10">
+
+                                    <div class="alignicons">
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
+                                            type</label>
+                                        <select id="inputState" class="form-control select topselect pl-3">
+                                            <option selected>
+                                                Select activity type
+                                            </option>
+                                            <option>quiz</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-2 col-md-1 ml-0 pl-0 filtercontentinput mt-1">
+                                    <button class="btn generalparagraph filterbtn mt-4">
+                                        Go
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group row filtercontentinput">
+                                <div class="col-10">
+
+                                    <div class="alignicons">
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
+                                            type</label>
+                                        <select id="" class="form-control select topselect pl-3">
+                                            <option selected>
+                                                Select Publish Status
+                                            </option>
+                                            <option>Published</option>
+                                            <option>Draft</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-2 col-md-1 ml-0 pl-0 filtercontentinput mt-1">
+                                    <button class="btn generalparagraph filterbtn mt-4">
+                                        Go
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group row filtercontentinput">
+                                <div class="col-10">
+
+                                    <div class="alignicons">
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
+                                            type</label>
+                                        <select id="" class="form-control select topselect pl-3">
+                                            <option selected>
+                                                Lock/Unlock
+                                            </option>
+                                            <option>Lock</option>
+                                            <option>Unlock</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-2 col-md-1 ml-0 pl-0 filtercontentinput mt-1">
+                                    <button class="btn generalparagraph filterbtn mt-4">
+                                        Go
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group row filtercontentinput">
+                                <div class="col-10">
+
+                                    <div class="alignicons">
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">Premium or Free</label>
+                                        <select id="" class="form-control select topselect pl-3">
+                                            <option selected>
+                                                Free Activities
+                                            </option>
+                                            <option>Premium</option>
+                                            <option>Free</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-2 col-md-1 ml-0 pl-0 filtercontentinput mt-1">
+                                    <button class="btn generalparagraph filterbtn mt-4">
+                                        Go
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-md-8">
+                    <div class="container-fluid px-5">
+                        <div class="row whiteborderbottom pb-5">
+
+                            <div class="my-2 mt-4 col-md-12">
+                                <h1 class="largeheader1">
+                                    Learning Track Activities
+                                </h1>
+                                <div class="mt-3">
+                                    <div class="success d-flex">
+                                        <div class="greenborderright">
+                                            <i class="fa fa-lightbulb-o p-3 greencolor" aria-hidden="true"></i>
+                                        </div>
+
+                                        <p class="generalparagraph darkergray mb-0 p-3">
+                                            The theme color you choose here is what your learning hub
+                                            will adopt, irrespective of the theme color of your site.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row px-0 mx-0" id="draggablecontentList">
+                                <div class="col-md-12 mt-5">
+
+
+
+                                    <div class="panel nameclassroom py-4">
+                                        <div class="row">
+
+
+                                            <div class="col-md-1 draggablehandle">
+                                                <div>
+                                                    <i class="fas fa-grip-vertical darkergray"></i>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6 border-right">
+                                                <div class="d-flex justify-content-between">
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="d-flex flex-column draggablehandle">
+
+                                                            <h2 class="mainheader3 bold my-0">
+                                                                <span class="greencolor">Audio </span>
+                                                                -
+                                                                Getting Started with
+                                                                Bee Keeping
+                                                            </h2>
+
+
+
+                                                            <p class="generalparagraph darkergray my-3">
+                                                                A comprehensive introduction to the basics of Bee
+                                                                keeping for beginners.
+                                                            </p>
+                                                            <div class="d-flex">
+                                                                <p class="generalparagraph mb-0 greencolor mr-3 py-2">
+                                                                    <i class="far fa-plus-square"></i>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fa fa-calendar"
+                                                                            aria-hidden="true"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">Tuesday, 8-Mar-2021</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">12:00pm (WAT)</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-alarm-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">90Mins</span>
+                                                                </p>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-3 border-right">
+                                                <h2 class="generalparagraph2 greencolor">
+                                                    Pre-requisite
+                                                </h2>
+                                                <p class="generalparagraph darkergray">
+                                                    Quiz - How to get started with Bee keeping in Los Angeles
+                                                </p>
+                                            </div>
+
+
+                                            <div class="col-md-2">
+                                                <div class="justify-content-end d-flex align-items-center">
+                                                    <div class=" d-flex justify-content-center align-items-center
+                                                                align-content-center greycirclesbg ">
+                                                        <a href=" #" class="btn p-0 m-0 d-flex mb-0" data-toggle="modal"
+                                                            data-target="#EditActivityModal" data-whatever="@mdo">
+                                                            <i class="fa fa-pencil text-white" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div>
+
+                                                        <button class="
+                                                                    btn  dropdown-toggle  p-0  m-0  d-flex  mb-0  ml-3"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <i class="fa fa-ellipsis-v darkergray"></i>
+                                                        </button>
+
+                                                        <div class="
+                                                              dropdown-menu
+                                                              disabledeletedropmenu
+                                                              px-3
+                                                              m-0
+                                                            ">
+                                                            <!-- Dropdown menu links -->
+                                                            <ul class="dropmenutext m-0 p-0">
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#EditActivityModal"
+                                                                        data-whatever="@mdo">
+                                                                        Edit Activity Settings</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DripSettingsModal"
+                                                                        data-whatever="@mdo">
+                                                                        Drip Settings </a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PayAcessModal"
+                                                                        data-whatever="@mdo">
+                                                                        Pay to access</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PublishUnpublishModal"
+                                                                        data-whatever="@mdo">Publish</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DeleteModal"
+                                                                        data-whatever="@mdo">Delete</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-12 mt-5">
+
+
+
+                                    <div class="panel nameclassroom py-4">
+                                        <div class="row">
+
+
+                                            <div class="col-md-1 draggablehandle">
+                                                <div>
+                                                    <i class="fas fa-grip-vertical darkergray"></i>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6 border-right">
+                                                <div class="d-flex justify-content-between">
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="d-flex flex-column draggablehandle">
+
+                                                            <h2 class="mainheader3 bold my-0">
+                                                                <span class="greencolor">Audio </span>
+                                                                -
+                                                                Getting Started with
+                                                                Bee Keeping
+                                                            </h2>
+
+
+
+                                                            <p class="generalparagraph darkergray my-3">
+                                                                A comprehensive introduction to the basics of Bee
+                                                                keeping for beginners.
+                                                            </p>
+                                                            <div class="d-flex">
+                                                                <p class="generalparagraph mb-0 greencolor mr-3 py-2">
+                                                                    <i class="far fa-plus-square"></i>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fa fa-calendar"
+                                                                            aria-hidden="true"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">Tuesday, 8-Mar-2021</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">12:00pm (WAT)</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-alarm-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">90Mins</span>
+                                                                </p>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-3 border-right">
+                                                <h2 class="generalparagraph2 greencolor">
+                                                    Pre-requisite
+                                                </h2>
+                                                <p class="generalparagraph darkergray">
+                                                    Quiz - How to get started with Bee keeping in Los Angeles
+                                                </p>
+                                            </div>
+
+
+                                            <div class="col-md-2">
+                                                <div class="justify-content-end d-flex align-items-center">
+                                                    <div class=" d-flex justify-content-center align-items-center
+                                                                align-content-center greycirclesbg ">
+                                                        <a href=" #" class="btn p-0 m-0 d-flex mb-0" data-toggle="modal"
+                                                            data-target="#EditActivityModal" data-whatever="@mdo">
+                                                            <i class="fa fa-pencil text-white" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div>
+
+                                                        <button class="
+                                                                    btn  dropdown-toggle  p-0  m-0  d-flex  mb-0  ml-3"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <i class="fa fa-ellipsis-v darkergray"></i>
+                                                        </button>
+
+                                                        <div class="
+                                                              dropdown-menu
+                                                              disabledeletedropmenu
+                                                              px-3
+                                                              m-0
+                                                            ">
+                                                            <!-- Dropdown menu links -->
+                                                            <ul class="dropmenutext m-0 p-0">
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#EditActivityModal"
+                                                                        data-whatever="@mdo">
+                                                                        Edit Activity Settings</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DripSettingsModal"
+                                                                        data-whatever="@mdo">
+                                                                        Drip Settings </a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PayAcessModal"
+                                                                        data-whatever="@mdo">
+                                                                        Pay to access</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PublishUnpublishModal"
+                                                                        data-whatever="@mdo">Publish</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DeleteModal"
+                                                                        data-whatever="@mdo">Delete</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-12 mt-5">
+
+
+
+                                    <div class="panel nameclassroom py-4">
+                                        <div class="row">
+
+
+                                            <div class="col-md-1 draggablehandle">
+                                                <div>
+                                                    <i class="fas fa-grip-vertical darkergray"></i>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6 border-right">
+                                                <div class="d-flex justify-content-between">
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="d-flex flex-column draggablehandle">
+
+                                                            <h2 class="mainheader3 bold my-0">
+                                                                <span class="greencolor">Audio </span>
+                                                                -
+                                                                Getting Started with
+                                                                Bee Keeping
+                                                            </h2>
+
+
+
+                                                            <p class="generalparagraph darkergray my-3">
+                                                                A comprehensive introduction to the basics of Bee
+                                                                keeping for beginners.
+                                                            </p>
+                                                            <div class="d-flex">
+                                                                <p class="generalparagraph mb-0 greencolor mr-3 py-2">
+                                                                    <i class="far fa-plus-square"></i>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fa fa-calendar"
+                                                                            aria-hidden="true"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">Tuesday, 8-Mar-2021</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">12:00pm (WAT)</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-alarm-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">90Mins</span>
+                                                                </p>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-3 border-right">
+                                                <h2 class="generalparagraph2 greencolor">
+                                                    Pre-requisite
+                                                </h2>
+                                                <p class="generalparagraph darkergray">
+                                                    Quiz - How to get started with Bee keeping in Los Angeles
+                                                </p>
+                                            </div>
+
+
+                                            <div class="col-md-2">
+                                                <div class="justify-content-end d-flex align-items-center">
+                                                    <div class=" d-flex justify-content-center align-items-center
+                                                                align-content-center greycirclesbg ">
+                                                        <a href=" #" class="btn p-0 m-0 d-flex mb-0" data-toggle="modal"
+                                                            data-target="#EditActivityModal" data-whatever="@mdo">
+                                                            <i class="fa fa-pencil text-white" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div>
+
+                                                        <button class="
+                                                                    btn  dropdown-toggle  p-0  m-0  d-flex  mb-0  ml-3"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <i class="fa fa-ellipsis-v darkergray"></i>
+                                                        </button>
+
+                                                        <div class="
+                                                              dropdown-menu
+                                                              disabledeletedropmenu
+                                                              px-3
+                                                              m-0
+                                                            ">
+                                                            <!-- Dropdown menu links -->
+                                                            <ul class="dropmenutext m-0 p-0">
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#EditActivityModal"
+                                                                        data-whatever="@mdo">
+                                                                        Edit Activity Settings</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DripSettingsModal"
+                                                                        data-whatever="@mdo">
+                                                                        Drip Settings </a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PayAcessModal"
+                                                                        data-whatever="@mdo">
+                                                                        Pay to access</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PublishUnpublishModal"
+                                                                        data-whatever="@mdo">Publish</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DeleteModal"
+                                                                        data-whatever="@mdo">Delete</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-12 mt-5">
+
+
+
+                                    <div class="panel nameclassroom py-4">
+                                        <div class="row">
+
+
+                                            <div class="col-md-1 draggablehandle">
+                                                <div>
+                                                    <i class="fas fa-grip-vertical darkergray"></i>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6 border-right">
+                                                <div class="d-flex justify-content-between">
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="d-flex flex-column draggablehandle">
+
+                                                            <h2 class="mainheader3 bold my-0">
+                                                                <span class="greencolor">Audio </span>
+                                                                -
+                                                                Getting Started with
+                                                                Bee Keeping
+                                                            </h2>
+
+
+
+                                                            <p class="generalparagraph darkergray my-3">
+                                                                A comprehensive introduction to the basics of Bee
+                                                                keeping for beginners.
+                                                            </p>
+                                                            <div class="d-flex">
+                                                                <p class="generalparagraph mb-0 greencolor mr-3 py-2">
+                                                                    <i class="far fa-plus-square"></i>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fa fa-calendar"
+                                                                            aria-hidden="true"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">Tuesday, 8-Mar-2021</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">12:00pm (WAT)</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-alarm-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">90Mins</span>
+                                                                </p>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-3 border-right">
+                                                <h2 class="generalparagraph2 greencolor">
+                                                    Pre-requisite
+                                                </h2>
+                                                <p class="generalparagraph darkergray">
+                                                    Quiz - How to get started with Bee keeping in Los Angeles
+                                                </p>
+                                            </div>
+
+
+                                            <div class="col-md-2">
+                                                <div class="justify-content-end d-flex align-items-center">
+                                                    <div class=" d-flex justify-content-center align-items-center
+                                                                align-content-center greycirclesbg ">
+                                                        <a href=" #" class="btn p-0 m-0 d-flex mb-0" data-toggle="modal"
+                                                            data-target="#EditActivityModal" data-whatever="@mdo">
+                                                            <i class="fa fa-pencil text-white" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div>
+
+                                                        <button class="
+                                                                    btn  dropdown-toggle  p-0  m-0  d-flex  mb-0  ml-3"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <i class="fa fa-ellipsis-v darkergray"></i>
+                                                        </button>
+
+                                                        <div class="
+                                                              dropdown-menu
+                                                              disabledeletedropmenu
+                                                              px-3
+                                                              m-0
+                                                            ">
+                                                            <!-- Dropdown menu links -->
+                                                            <ul class="dropmenutext m-0 p-0">
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#EditActivityModal"
+                                                                        data-whatever="@mdo">
+                                                                        Edit Activity Settings</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DripSettingsModal"
+                                                                        data-whatever="@mdo">
+                                                                        Drip Settings </a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PayAcessModal"
+                                                                        data-whatever="@mdo">
+                                                                        Pay to access</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PublishUnpublishModal"
+                                                                        data-whatever="@mdo">Publish</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DeleteModal"
+                                                                        data-whatever="@mdo">Delete</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-12 mt-5">
+
+
+
+                                    <div class="panel nameclassroom py-4">
+                                        <div class="row">
+
+
+                                            <div class="col-md-1 draggablehandle">
+                                                <div>
+                                                    <i class="fas fa-grip-vertical darkergray"></i>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6 border-right">
+                                                <div class="d-flex justify-content-between">
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="d-flex flex-column draggablehandle">
+
+                                                            <h2 class="mainheader3 bold my-0">
+                                                                <span class="greencolor">Audio </span>
+                                                                -
+                                                                Getting Started with
+                                                                Bee Keeping
+                                                            </h2>
+
+
+
+                                                            <p class="generalparagraph darkergray my-3">
+                                                                A comprehensive introduction to the basics of Bee
+                                                                keeping for beginners.
+                                                            </p>
+                                                            <div class="d-flex">
+                                                                <p class="generalparagraph mb-0 greencolor mr-3 py-2">
+                                                                    <i class="far fa-plus-square"></i>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fa fa-calendar"
+                                                                            aria-hidden="true"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">Tuesday, 8-Mar-2021</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">12:00pm (WAT)</span>
+                                                                </p>
+                                                                <p class="generalparagraph mb-0 mr-2 py-2">
+                                                                    <span class="greencolor">
+                                                                        <i class="fas fa-alarm-clock"></i>
+                                                                    </span>
+                                                                    <span class="darkergray">90Mins</span>
+                                                                </p>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-3 border-right">
+                                                <h2 class="generalparagraph2 greencolor">
+                                                    Pre-requisite
+                                                </h2>
+                                                <p class="generalparagraph darkergray">
+                                                    Quiz - How to get started with Bee keeping in Los Angeles
+                                                </p>
+                                            </div>
+
+
+                                            <div class="col-md-2">
+                                                <div class="justify-content-end d-flex align-items-center">
+                                                    <div class=" d-flex justify-content-center align-items-center
+                                                                align-content-center greycirclesbg ">
+                                                        <a href=" #" class="btn p-0 m-0 d-flex mb-0" data-toggle="modal"
+                                                            data-target="#EditActivityModal" data-whatever="@mdo">
+                                                            <i class="fa fa-pencil text-white" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div>
+
+                                                        <button class="
+                                                                    btn  dropdown-toggle  p-0  m-0  d-flex  mb-0  ml-3"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <i class="fa fa-ellipsis-v darkergray"></i>
+                                                        </button>
+
+                                                        <div class="
+                                                              dropdown-menu
+                                                              disabledeletedropmenu
+                                                              px-3
+                                                              m-0
+                                                            ">
+                                                            <!-- Dropdown menu links -->
+                                                            <ul class="dropmenutext m-0 p-0">
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#EditActivityModal"
+                                                                        data-whatever="@mdo">
+                                                                        Edit Activity Settings</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DripSettingsModal"
+                                                                        data-whatever="@mdo">
+                                                                        Drip Settings </a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PayAcessModal"
+                                                                        data-whatever="@mdo">
+                                                                        Pay to access</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#PublishUnpublishModal"
+                                                                        data-whatever="@mdo">Publish</a>
+                                                                </li>
+                                                                <li class="generalparagraph2 py-2">
+                                                                    <a href="#" class="text-dark" data-toggle="modal"
+                                                                        data-target="#DeleteModal"
+                                                                        data-whatever="@mdo">Delete</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row my-2 pb-5">
+                            <div class="col-12 mt-5">
+                                <div class="warning d-flex p-3">
+                                    <i class="far fa-question-circle mr-3" aria-hidden="true"></i>
+                                    <p class="generalparagraph darkergray mb-0">
+                                        <a href="#" class="darkergray nounderlinelink">
+                                            Learn More
+                                        </a>
+                                        about Learning Hubs in the Skilli Knowledge Base
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+
+    <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coaching</title>
+
+    <script src="https://kit.fontawesome.com/0da91a7850.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="primaryheader greenborderbottom pb-3">
+        <nav class="navbar navbar-expand-lg p-0 m-0 mobilenavigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand logo-icon-mobile my-5" href="#">
+                <a href="index.html" class="maincolor largetext d-none">Agrohub.</p>
+                    <a class="joinbtnrounded d-none">
+                        Join the community
+                    </a>
+                </a>
+                </a>
+            <div class="p-0 m-0 collapse navbar-collapse px-md-5 mx-md-5 totalcontainer" id="navbarSupportedContent">
+                <div class="navbarleftandright mt-4">
+                    <ul class="navbar-nav leftcontent mt-2 p-0 m-0">
+                        <a href="index.html" class="maincolor largetext">Agrohub</p>
+                        
+                    </ul>
+
+                    <ul class="navbar-nav middlecontent">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark darkgreencolor" href="exploresessions.html">Sessions </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark darkgreencolor" href="completedsession.html">Coaching </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark darkgreencolor" href="sessionbooked.html">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark darkgreencolor" href="viewcoaching.html">Engage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark darkgreencolor" href="viewsession.html">FAQS</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="rightcontent mt-3">
+                        <a class="joinbtnrounded">
+                            Join the community
+                        </a>
+                    </ul>
+                </div>
+                <ul class="navbarmobile mx-5">
+                   
+                    <li class="nav-item d-flex align-items-center border-bottom pb-2">
+                        <i class="fas fa-arrow-right mr-2 maincolor"></i>
+                        <a class="nav-link text-dark darkgreencolor w-100" href="sessionbooked.html">Sessions </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center border-bottom pb-2">
+                        <i class="fas fa-arrow-right mr-2 maincolor"></i>
+                        <a class="nav-link text-dark darkgreencolor" href="coaching.html">Coaching </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center border-bottom pb-2">
+                        <i class="fas fa-arrow-right mr-2 maincolor"></i>
+                        <a class="nav-link text-dark darkgreencolor" href="exploresessions.html">Resources</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center border-bottom pb-2">
+                        <i class="fas fa-arrow-right mr-2 maincolor"></i>
+                        <a class="nav-link text-dark darkgreencolor" href="completedsession.html">Engage</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center border-bottom pb-2">
+                        <i class="fas fa-arrow-right mr-2 maincolor"></i>
+                        <a class="nav-link text-dark darkgreencolor" href="viewcoaching.html">FAQS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="headercontent mx-5 px-md-5 mt-5 pt-3">
+            <h1 class="mainheaderlarge darkgreencolor ml-lg-3">
+                Private Coaching</h1>
+            <h3 class="subheader darkgreencolor col-lg-5 p-0 m-0 ml-lg-3">
+                Torquatos nostros? quos dolores eos, qui dolorem ipsum per se texit, ne ferae quidem se repellere.
+            </h3>
+
+            <div class="filterform mt-md-5 mt-4 ml-lg-3">
+
+                <h2 class="mainheader1 ml-lg-2 bold">Filter</h2>
+
+                <div class="row align-items-center ml-lg-2">
+                    <form class="row align-items-center p-0 m-0">
+                        <div class="mb-2 mr-1 alignicons col-12 col-lg-3 p-lg-0 m-lg-0 mr-3">
+                            <select id="inputState" class="select topselect mt-3">
+                                <option selected>Topic</option>
+                                <option>Agriculture</option>
+                            </select>
+                        </div>
+                        <div class="mx-1 mb-2 alignicons bottomalignicons col-5 col-lg-3 p-lg-0 m-lg-0 mr-3">
+                            <select id="inputState" class="select bottomselect mt-3" placeholder="all">
+                                <option selected>Location</option>
+                                <option>Lagos</option>
+                            </select>
+                        </div>
+                        <div class="mx-1 mb-2 alignicons bottomalignicons col-5 col-lg-3 p-lg-0 m-lg-0 mr-3">
+                            <select id="inputState" class="select bottomselect mt-3" placeholder="all">
+                                <option selected>Type</option>
+                                <option>Freelance</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2 p-lg-0 m-lg-0">
+                        <button type="button" class="btn generalbtn mt-3">
+                            Search
+                        </button>
+                    </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="totalcontainer greenborderbottom ml-lg-1">
+        <div class="mt-4 row mx-2 px-md-5 mx-md-5">
+            <h2 class="mainheader1 ml-lg-4 col-lg-1">Viewing</h2>
+            <ul class="roundedboxes col-lg-8">
+                <li><a href="#">
+                        Upcoming Sessions
+                    </a></li>
+                <li><a href="#">Product Spotlight</a></li>
+                <li><a href="#">Plantain Farming</a></li>
+                <li><a href="#">Rabbit Farming</a></li>
+                <li><a href="#">Rabbit Farming</a></li>
+                <li><a href="#">Rabbit Farming</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="totalcontainer px-md-5 mx-md-5 mt-5">
+        <div class="mt-5 ml-lg-4">
+            <div class="row dottedborderbottom pb-4">
+                <div class="col-lg-5 mr-lg-5">
+                    <div class="row">
+                        <div class="col-11">
+                    <p class="latoparagraph">
+                        <span class="bold"> Starting:</span>
+                        20th, April 2020
+                    </p>
+                    <h1 class="mainheader2 maincolor">Building a Sandbag Fish Pond</h1>
+                    <p class="generalparagraph d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ipsum
+                        pellentesque est orci bibendum nisl eget volutpat. </p>
+                    <p class="generalparagraph d-block d-md-none darkgreencolor">Coaches: Sundar pichai, Courage Egbude</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Field Trip</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">10 Slots Only</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Lagos</span>
+                        </div>
+                        <div class="smallerparagraph bold">
+                            <i class="fa fa-clock-o mr-2 text-grey"></i>
+                            <span class="bold">4 weeks</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-1 d-block d-md-none">
+                   <a href="#" class="text-dark"> <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                </div>
+                </div>
+                <div class="col-lg-3 d-md-block d-none">
+                    <h2 class="mainheader3 maincolor">Coach(es)</h2>
+                    <div class="mt-3">
+                        <div class="d-flex">
+                            <div class="coachprofileimage">
+                                <img src="images/coach.png" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="coachprofileimage">
+                                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 d-md-block d-none">
+                    <button type="button" class="btn smallergeneralbtn justify-content-end">
+                        Book a Slot
+                    </button>
+                </div>
+            </div>
+            <div class="row dottedborderbottom pb-4 mt-5">
+                <div class="col-lg-5 mr-lg-5">
+                    <div class="row">
+                        <div class="col-11">
+                    <p class="latoparagraph">
+                        <span class="bold"> Starting:</span>
+                        20th, April 2020
+                    </p>
+                    <h1 class="mainheader2 maincolor">Building a Sandbag Fish Pond</h1>
+                    <p class="generalparagraph d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ipsum
+                        pellentesque est orci bibendum nisl eget volutpat. </p>
+                    <p class="generalparagraph d-block d-md-none darkgreencolor">Coaches: Sundar pichai, Courage Egbude</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Field Trip</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">10 Slots Only</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Lagos</span>
+                        </div>
+                        <div class="smallerparagraph bold">
+                            <i class="fa fa-clock-o mr-2 text-grey"></i>
+                            <span class="bold">4 weeks</span>
+                        </div>
+
+                    </div>
+                </div>
+                    <div class="col-1 d-block d-md-none">
+                        <a href="#" class="text-dark"> <i class="fas fa-long-arrow-alt-right"></i></a>
+                     </div>
+                </div>
+                
+                </div>
+                <div class="col-lg-3 d-md-block d-none">
+                    <h2 class="mainheader3 maincolor">Coach(es)</h2>
+                    <div class="mt-3">
+                        <div class="d-flex">
+                            <div class="coachprofileimage">
+                                <img src="images/coach.png" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="coachprofileimage">
+                                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 d-md-block d-none">
+                    <button type="button" class="btn smallergeneralbtn justify-content-end">
+                        Book a Slot
+                    </button>
+                </div>
+            </div>
+            <div class="row dottedborderbottom pb-4 mt-5">
+                <div class="col-lg-5 mr-lg-5">
+                    <div class="row">
+                        <div class="col-11">
+                    <p class="latoparagraph">
+                        <span class="bold"> Starting:</span>
+                        20th, April 2020
+                    </p>
+                    <h1 class="mainheader2 maincolor">Building a Sandbag Fish Pond</h1>
+                    <p class="generalparagraph d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ipsum
+                        pellentesque est orci bibendum nisl eget volutpat. </p>
+                        <p class="generalparagraph d-block d-md-none darkgreencolor">Coaches: Sundar pichai, Courage Egbude</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Field Trip</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">10 Slots Only</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Lagos</span>
+                        </div>
+                        <div class="smallerparagraph bold">
+                            <i class="fa fa-clock-o mr-2 text-grey"></i>
+                            <span class="bold">4 weeks</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-1 d-block d-md-none">
+                        <a href="#" class="text-dark"> <i class="fas fa-long-arrow-alt-right"></i></a>
+                     </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-md-block d-none">
+                    <h2 class="mainheader3 maincolor">Coach(es)</h2>
+                    <div class="mt-3">
+                        <div class="d-flex">
+                            <div class="coachprofileimage">
+                                <img src="images/coach.png" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="coachprofileimage">
+                                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 d-md-block d-none">
+                    <button type="button" class="btn smallergeneralbtn justify-content-end">
+                        Book a Slot
+                    </button>
+                </div>
+            </div>
+            <div class="row dottedborderbottom pb-4 mt-5">
+                <div class="col-lg-5 mr-lg-5">
+                    <p class="latoparagraph">
+                        <span class="bold"> Starting:</span>
+                        20th, April 2020
+                    </p>
+                    <h1 class="mainheader2 maincolor">Building a Sandbag Fish Pond</h1>
+                    <p class="generalparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ipsum
+                        pellentesque est orci bibendum nisl eget volutpat. </p>
+                    <div class="d-flex flex-wrap">
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Field Trip</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">10 Slots Only</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Lagos</span>
+                        </div>
+                        <div class="smallerparagraph bold">
+                            <i class="fa fa-clock-o mr-2 text-grey"></i>
+                            <span class="bold">4 weeks</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 d-md-block d-none">
+                    <h2 class="mainheader3 maincolor">Coach(es)</h2>
+                    <div class="mt-3">
+                        <div class="d-flex">
+                            <div class="coachprofileimage">
+                                <img src="images/coach.png" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="coachprofileimage">
+                                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 d-md-block d-none">
+                    <button type="button" class="btn smallergeneralbtn justify-content-end">
+                        Book a Slot
+                    </button>
+                </div>
+            </div>
+            <div class="row dottedborderbottom pb-4 mt-5">
+                <div class="col-lg-5 mr-lg-5">
+                    <p class="latoparagraph">
+                        <span class="bold"> Starting:</span>
+                        20th, April 2020
+                    </p>
+                    <h1 class="mainheader2 maincolor">Building a Sandbag Fish Pond</h1>
+                    <p class="generalparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ipsum
+                        pellentesque est orci bibendum nisl eget volutpat. </p>
+                    <div class="d-flex flex-wrap">
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Field Trip</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">10 Slots Only</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Lagos</span>
+                        </div>
+                        <div class="smallerparagraph bold">
+                            <i class="fa fa-clock-o mr-2 text-grey"></i>
+                            <span class="bold">4 weeks</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 d-md-block d-none">
+                    <h2 class="mainheader3 maincolor">Coach(es)</h2>
+                    <div class="mt-3">
+                        <div class="d-flex">
+                            <div class="coachprofileimage">
+                                <img src="images/coach.png" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="coachprofileimage">
+                                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 d-md-block d-none">
+                    <button type="button" class="btn smallergeneralbtn justify-content-end">
+                        Book a Slot
+                    </button>
+                </div>
+            </div>
+            <div class="row dottedborderbottom pb-4 mt-5">
+                <div class="col-lg-5 mr-lg-5">
+                    <p class="latoparagraph">
+                        <span class="bold"> Starting:</span>
+                        20th, April 2020
+                    </p>
+                    <h1 class="mainheader2 maincolor">Building a Sandbag Fish Pond</h1>
+                    <p class="generalparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ipsum
+                        pellentesque est orci bibendum nisl eget volutpat. </p>
+                    <div class="d-flex flex-wrap">
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Field Trip</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">10 Slots Only</span>
+                        </div>
+                        <div class="smallerparagraph bold mr-5">
+                            <i class="fa fa-user-circle mr-2"></i>
+                            <span class="maincolor">Lagos</span>
+                        </div>
+                        <div class="smallerparagraph bold">
+                            <i class="fa fa-clock-o mr-2 text-grey"></i>
+                            <span class="bold">4 weeks</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 d-md-block d-none">
+                    <h2 class="mainheader3 maincolor">Coach(es)</h2>
+                    <div class="mt-3">
+                        <div class="d-flex">
+                            <div class="coachprofileimage">
+                                <img src="images/coach.png" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="coachprofileimage">
+                                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="coach image">
+                            </div>
+                            <div class="coachuserdetails ml-3">
+                                <h6>Sundar pichai</h6>
+                                <div class="subheader">CEO at Agrohub</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 d-md-block d-none">
+                    <button type="button" class="btn smallergeneralbtn justify-content-end">
+                        Book a Slot
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="smallerparagraph mt-5 text-center d-block d-md-none">
+              <a href="" class="text-dark linkborderbottom pb-2"> View More</a> 
+            </div>
+
+        </div>
+
+        <div class="mt-5 pt-md-5 graycontainer p-3 p-md-5">
+            <h1 class="maincolor mainheader4 text-center text-md-left py-3 py-md-0">Engage in a Wide Variety of Solutions</h1>
+            <div class="mt-md-5">
+                <div class="d-flex">
+                    <i class="fas fa-brush pt-1 mr-2"></i>
+
+                    <div class="ml-2">
+                        <p class="mainheader4 darkgreencolor">Private Coaching</p>
+                        <p class="generalparagraph darkgreencolor">Torquatos nostros? quos dolores eos, qui dolorem
+                            ipsum per se texit, ne ferae quidem se repellere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="d-flex">
+                    <i class="fas fa-brush pt-1 mr-2"></i>
+
+                    <div class="ml-2">
+                        <p class="mainheader4 darkgreencolor">Group Coaching</p>
+                        <p class="generalparagraph darkgreencolor">Torquatos nostros? quos dolores eos, qui dolorem
+                            ipsum per se texit, ne ferae quidem se repellere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="d-flex">
+                    <i class="fas fa-brush pt-1 mr-2"></i>
+
+                    <div class="ml-2">
+                        <p class="mainheader4 darkgreencolor">Group Coaching</p>
+                        <p class="generalparagraph darkgreencolor">Torquatos nostros? quos dolores eos, qui dolorem
+                            ipsum per se texit, ne ferae quidem se repellere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="d-flex">
+                    <i class="fas fa-brush pt-1 mr-2"></i>
+
+                    <div class="ml-2">
+                        <p class="mainheader4 darkgreencolor">Group Coaching</p>
+                        <p class="generalparagraph darkgreencolor">Torquatos nostros? quos dolores eos, qui dolorem
+                            ipsum per se texit, ne ferae quidem se repellere.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 pt-5 graycontainer p-3 p-md-5">
+            <h1 class="maincolor mainheader4 mb-3 text-center text-md-left">Can you Coach?</h1>
+            <p class="generalparagraph darkgreencolor my-3 text-center text-md-left">Torquatos nostros? quos dolores eos, qui dolorem ipsum per se
+                texit, ne ferae quidem se repellere.</p>
+
+                <div class="text-center text-md-left">
+                <button type="button" class="mt-3 btn roundedbtn text-center text-md-left justify-content-md-end">
+                    Become a Coach
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+<script src="jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+
+</html>

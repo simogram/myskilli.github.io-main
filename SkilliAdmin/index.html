@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+
+    <script
+      src="https://kit.fontawesome.com/0da91a7850.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="
+        d-flex
+        flex-column
+        justify-content-center
+        align-content-center
+        w-100
+      "
+    >
+      <div class="logoimage text-center my-5">
+        <img src="images/valuemindsLogo.png" alt="Logo" class="img-fluid" />
+      </div>
+
+      <div class="text-content mt-5">
+        <h1 class="mainheader1 text-center greencolor mb-0">Welcome back!</h1>
+        <h2 class="subheader text-center mt-0">
+          Login to your School Administration Portal
+        </h2>
+        <div
+          class="
+            mt-5
+            logindetailsform
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            text-center
+          "
+        >
+          <input
+            class="form-control mb-4 text-center"
+            type="email"
+            placeholder="Your Email"
+          />
+          <input
+            class="form-control mt-1 text-center"
+            type="password"
+            placeholder="Password"
+          />
+          <a href="#" class="forgotpassword mt-4"> Forgot Password?</a>
+          <button
+            class="btn loginbtn mt-5"
+            onclick="location.href='classDashboard.html'"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</html>

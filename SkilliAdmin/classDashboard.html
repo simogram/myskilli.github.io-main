@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <script
+      src="https://kit.fontawesome.com/0da91a7850.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper chiller-theme toggled d-flex">
+      <nav id="sidebar" class="sidebar-wrapper d-none d-lg-block">
+        <div class="sidebar-content">
+          <div class="sidebar-header">
+            <div class="text-center my-3">
+              <a href="#">
+                <img
+                  src="images/valuemindsLogo.png"
+                  alt="Logo"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="text-center mt-5">
+              <i
+                class="far fa-user-circle fa-5x lightcolor"
+                aria-hidden="true"
+              ></i>
+            </div>
+            <div class="mt-3 mx-3">
+              <h1 class="welcome-message greencolor largeheader1">
+                Welcome back,
+                <span class="smallersubheader text-dark">Admin</span>
+              </h1>
+            </div>
+          </div>
+          <div class="sidebar-menu mx-3 px-2">
+            <ul>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fas fa-chart-bar greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Dashboard</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown py-2 px-2">
+                <div class="accordion" id="accordionExample">
+                  <div
+                    class="explorecollapsebox"
+                    id="exploreheadingSidenavthree"
+                    data-toggle="collapse"
+                    data-target="#explorecollapseSidenavthree"
+                    aria-expanded="true"
+                    aria-controls="explorecollapseSidenavthree"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h2
+                        class="
+                          generalparagraph
+                          mb-0
+                          sidebarcolor
+                          text-uppercase
+                        "
+                      >
+                        <i
+                          class="fas fa-suitcase mr-2 greencolor"
+                          aria-hidden="true"
+                        ></i>
+
+                        <span class="ml-2 pl-1 boldtext">
+                          Learning assets
+                        </span>
+                      </h2>
+                      <i class="fas fa-minus fa-xs darkergray"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    id="explorecollapseSidenavthree"
+                    class="collapse show"
+                    aria-labelledby="exploreheadingSidenavthree"
+                    data-parent="#accordionExample"
+                  >
+                    <ul class="ml-2 pl-4 mt-1 py-1">
+                      <li class="py-1 pl-1">
+                        <a
+                          href="schoolAdministration.html"
+                          class="generalparagraph greencolor"
+                        >
+                          <u> Learning hubs</u>
+                        </a>
+                      </li>
+                      <li class="py-1 pl-1">
+                        <a href="#" class="generalparagraph darkergray">
+                          Courses
+                        </a>
+                      </li>
+                      <li class="py-1 pl-1">
+                        <a href="#" class="generalparagraph darkergray">
+                          Conference
+                        </a>
+                      </li>
+                      <li class="py-1 pl-1">
+                        <a href="#" class="generalparagraph darkergray">
+                          Knowledge Series
+                        </a>
+                      </li>
+                      <li class="py-1 pl-1">
+                        <a href="#" class="generalparagraph darkergray">
+                          Book Experience
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="sidebar-dropdown py-2 px-2">
+                <div class="accordion" id="accordionExample">
+                  <div
+                    class="explorecollapsebox"
+                    id="exploreheadingSidenavfour"
+                    data-toggle="collapse"
+                    data-target="#explorecollapseSidenavfour"
+                    aria-expanded="true"
+                    aria-controls="explorecollapseSidenavfour"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h2
+                        class="
+                          generalparagraph
+                          mb-0
+                          sidebarcolor
+                          text-uppercase
+                        "
+                      >
+                        <i
+                          class="fas fa-suitcase mr-2 greencolor"
+                          aria-hidden="true"
+                        ></i>
+
+                        <span class="ml-2 pl-1"> Site </span>
+                      </h2>
+                      <i class="fas fa-minus fa-xs darkergray"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    id="explorecollapseSidenavfour"
+                    class="collapse"
+                    aria-labelledby="exploreheadingSidenavfour"
+                    data-parent="#accordionExample"
+                  >
+                    <ul class="ml-2 pl-4 mt-1 py-1">
+                      <li class="py-1 pl-1">
+                        <a href="#" class="generalparagraph darkergray">
+                          Site
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="sidebar-dropdown py-2 px-2">
+                <div class="accordion" id="accordionExample">
+                  <div
+                    class="explorecollapsebox"
+                    id="exploreheadingSidenavfive"
+                    data-toggle="collapse"
+                    data-target="#explorecollapseSidenavfive"
+                    aria-expanded="true"
+                    aria-controls="explorecollapseSidenavfive"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h2
+                        class="
+                          generalparagraph
+                          mb-0
+                          sidebarcolor
+                          text-uppercase
+                        "
+                      >
+                        <i
+                          class="fas fa-suitcase mr-2 greencolor"
+                          aria-hidden="true"
+                        ></i>
+
+                        <span class="ml-2 pl-1"> Asset Library </span>
+                      </h2>
+                      <i class="fas fa-minus fa-xs darkergray"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    id="explorecollapseSidenavfive"
+                    class="collapse"
+                    aria-labelledby="exploreheadingSidenavfive"
+                    data-parent="#accordionExample"
+                  >
+                    <ul class="ml-2 pl-4 mt-1 py-1">
+                      <li class="py-1 pl-1">
+                        <a href="#" class="generalparagraph darkergray">
+                          Quiz
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-envelope greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Emails</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-chart-line greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Reporting</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="far fa-user-circle greencolor"></i>
+                  <span class="text-uppercase generalparagraph"
+                    >User Management</span
+                  >
+                </a>
+              </li>
+              <li class="sidebar-dropdown py-2 px-2">
+                <div class="accordion" id="accordionExample">
+                  <div
+                    class="explorecollapsebox"
+                    id="exploreheadingSidenavtwo"
+                    data-toggle="collapse"
+                    data-target="#explorecollapseSidenavtwo"
+                    aria-expanded="true"
+                    aria-controls="explorecollapseSidenavtwo"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h2
+                        class="
+                          generalparagraph
+                          mb-0
+                          sidebarcolor
+                          text-uppercase
+                        "
+                      >
+                        <i
+                          class="fas fa-suitcase mr-2 greencolor"
+                          aria-hidden="true"
+                        ></i>
+
+                        <span class="ml-2 pl-1">Settings</span>
+                      </h2>
+                      <i class="fas fa-minus fa-xs darkergray"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    id="explorecollapseSidenavtwo"
+                    class="collapse show"
+                    aria-labelledby="exploreheadingSidenavtwo"
+                    data-parent="#accordionExample"
+                  >
+                    <ul class="ml-4 px-2 mt-2 py-1">
+                      <a
+                        href="schoolAdministration.html"
+                        class="generalparagraph greencolor"
+                      >
+                        <u> Admin Roles</u>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="sidebar-dropdown py-2 px-2">
+                <div class="accordion" id="accordionExample">
+                  <div
+                    class="explorecollapsebox"
+                    id="exploreheadingSidenavsix"
+                    data-toggle="collapse"
+                    data-target="#explorecollapseSidenavsix"
+                    aria-expanded="true"
+                    aria-controls="explorecollapseSidenavsix"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h2
+                        class="
+                          generalparagraph
+                          mb-0
+                          sidebarcolor
+                          text-uppercase
+                        "
+                      >
+                        <i
+                          class="fas fa-suitcase mr-2 greencolor"
+                          aria-hidden="true"
+                        ></i>
+
+                        <span class="ml-2 pl-1">Biling & Payments</span>
+                      </h2>
+                      <i class="fas fa-minus fa-xs darkergray"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    id="explorecollapseSidenavsix"
+                    class="collapse show"
+                    aria-labelledby="exploreheadingSidenavsix"
+                    data-parent="#accordionExample"
+                  >
+                    <ul class="ml-4 px-2 mt-2 py-1">
+                      <a href="plansPricing.html" class="generalparagraph">
+                        Plans & Pricing
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-question-circle greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Help</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-arrow-alt-circle-left greencolor"></i>
+                  <span class="text-uppercase generalparagraph">Logout</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer"></div>
+      </nav>
+      <!-- sidebar-wrapper  -->
+      <main class="page-content">
+        <div class="container-fluid p-0">
+          <div
+            class="
+              d-flex
+              graysolidbottom
+              justify-content-between
+              mb-4
+              px-5
+              py-4
+            "
+          >
+            <div class="">
+              <h1 class="welcome-message darkergray largeheader1 mb-0">
+                Your Learning Hubs
+              </h1>
+            </div>
+            <div class="">
+              <button class="btn generalparagraph createclassroom">
+                <i class="fa fa-plus fa-xs mr-2 mb-2" aria-hidden="true"></i>
+                New Classroom
+              </button>
+            </div>
+          </div>
+          <div class="container-fluid px-md-5 px-3">
+            <div class="row">
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a
+                        href="generalHubSettings.html"
+                        class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a
+                        href="plansPricing.html"
+                        class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="card-rounded relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a
+                        href="generalHubSettings.html"
+                        class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a
+                        href="hubAdmins.html"
+                        class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a href="hub.html" class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a href="hub.html" class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="card-rounded relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a href="hub.html" class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-rounded col-lg-3 my-3">
+                <div class="relativecontainer">
+                  <div class="roundedbadge">OFFLINE</div>
+                  <div class="card-rounded mintbackground">
+                    <i
+                      class="
+                        far
+                        fa-image fa-5x
+                        classroomimage
+                        lightcolor
+                        text-center
+                        pt-5
+                      "
+                    ></i>
+                  </div>
+                  <div class="card-rounded2 card-body-classroom p-4">
+                    <div class="circularbadge">A</div>
+                    <div class="mt-3 mb-1">
+                      <a href="hub.html" class="mainheader3 greencolor pt-4"
+                        >Agrohub</a
+                      >
+                    </div>
+                    <p class="card-text generalparagraph darkergray">
+                      The Knowledge Hub for all things Agro.
+                    </p>
+                    <p class="lightcolor smallestparagraph">K-hub</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</html>
