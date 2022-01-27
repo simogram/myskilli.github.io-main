@@ -186,6 +186,10 @@ select[readonly] {
   margin-left: 23%;
 }
 
+.lowerbox {
+  width: 750px;
+}
+
 .sliderheight {
   height: 350px auto;
 }
@@ -794,10 +798,12 @@ button.agrowatchnowbtn:hover {
 
 .xaxisspacingagroleft {
   margin-left: 0px;
+  align-items: center;
+  width: 70%;
 }
 
 .graycontainer {
-  width: max-content;
+  width: 750px;
 }
 
 .graycontainerinnercol {
@@ -1581,8 +1587,9 @@ button.saveyourslot:hover {
 }
 
 .relativecontainer {
-  position: absolute;
+  position: relative;
   margin-bottom: 5%;
+  width: 1300px;
 }
 
 .wsmall {
@@ -3358,7 +3365,7 @@ details[open] summary {
   flex: 1;
   border: 2px solid rgb(204, 204, 203);
   background: white;
-  border-radius: 20px;s
+  border-radius: 20px;
 }  
 
 .flex-child:first-child {
